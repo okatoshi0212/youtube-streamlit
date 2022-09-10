@@ -1,8 +1,4 @@
-from tkinter.tix import TEXT
 import streamlit as st
-import numpy as np
-import pandas as pd
-from PIL import Image
 import time
 
 #タイトル
@@ -32,18 +28,3 @@ expander2 = st.beta_expander('問い合わせ2')
 expander2.write('問い合わせ内容2の回答')
 expander3 = st.beta_expander('問い合わせ3')
 expander3.write('問い合わせ内容3の回答')
-
-
-
-#サイドバー（左側に表示）
-#text = st.text_input('あなたの選んだ野菜の種類を教えてください')
-#agi = st.slider('あなたの好きな味は？', 0, 100, 50)
-
-#'あなたの選んだもの：', text
-#'味：', agi
-
-
-#チェックボックス（画像表示有無）
-#if st.checkbox('Swho Image'):
- #   img = Image.open('78022896.jpg')
-  #  st.image(img, caption='ピーマン', use_column_width=True)
